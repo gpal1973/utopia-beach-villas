@@ -14,184 +14,53 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body id="top">
-  <header class="hero">
+<body class="page-home">
+  <header class="hero home-hero">
     <img class="hero-image" src="https://static.wixstatic.com/media/1da848_66af016178164958bf3c9de68bf13f32~mv2.jpeg" alt="Aerial view of Utopia Beach Villa and the Vourvourou shoreline" fetchpriority="high">
     <div class="hero-overlay"></div>
     <nav class="site-nav" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="Utopia Beach Villa home">
-        <img src="https://static.wixstatic.com/media/1da848_d47539cebf884bd4a8ef21b6702fda03~mv2.png" alt="Utopia Beach Villa logo">
-      </a>
-      <div class="nav-links">
-        <a href="#villa">The villa</a>
-        <a href="#spaces">Spaces</a>
-        <a href="#location">Location</a>
-        <a href="#book">Book direct</a>
-      </div>
+      <a class="brand" href="index.html" aria-label="Utopia Beach Villa home"><img src="https://static.wixstatic.com/media/1da848_d47539cebf884bd4a8ef21b6702fda03~mv2.png" alt="Utopia Beach Villa logo"></a>
+      <div class="nav-links"><a class="active" href="index.html">Home</a><a href="villa.html">The Villa</a><a href="gallery.html">Gallery & Location</a><a href="#book">Book direct</a></div>
     </nav>
-
     <div class="hero-copy">
       <p class="eyebrow">Vourvourou · Halkidiki</p>
-      <h1>A private stone villa<br>close to the sea.</h1>
+      <h1>A private stone villa close to the sea.</h1>
       <p class="lede">3 bedrooms · Sleeps 7–9 · Approximately 50 m from the beach</p>
-      <div class="actions">
-        <a class="button button-primary" target="_blank" rel="noopener" href="https://wa.me/306947328699?text=Hello%20George%2C%20I%27d%20like%20to%20ask%20about%20availability%20at%20Utopia%20Beach%20Villa.">WhatsApp George</a>
-        <a class="button button-ghost" href="mailto:gpal@utopiabeachvilla.com?subject=Utopia%20Beach%20Villa%20Booking%20Inquiry">Email George</a>
-      </div>
+      <div class="actions"><a class="button button-light" target="_blank" rel="noopener" href="https://wa.me/306947328699?text=Hello%20George%2C%20I%27d%20like%20to%20ask%20about%20availability%20at%20Utopia%20Beach%20Villa.">WhatsApp George</a><a class="button button-ghost" href="mailto:gpal@utopiabeachvilla.com?subject=Utopia%20Beach%20Villa%20Booking%20Inquiry">Email George</a></div>
     </div>
   </header>
 
   <main>
-    <section class="intro" id="villa">
-      <p class="eyebrow">The Main Villa</p>
-      <div>
-        <h2>One villa, shown space by space.</h2>
-        <p>Utopia Beach Villa is a traditional three-bedroom stone villa in central Vourvourou, Halkidiki. It sleeps 7–9 guests and combines a large private garden, private parking and a location approximately 50 metres from the beach.</p>
-      </div>
+    <section class="brand-intro section-pad">
+      <div class="section-kicker"><p class="eyebrow">The Main Villa</p></div>
+      <div class="intro-copy"><h2>Designed for long, easy days in Vourvourou.</h2><p>Utopia Beach Villa is a traditional three-bedroom stone villa in central Vourvourou. It combines a large private garden and private parking with the beach approximately 50 metres away.</p></div>
     </section>
 
-    <div id="spaces" class="spaces-heading">
-      <p class="eyebrow">Explore the villa</p>
-      <h2>Each room and outdoor space.</h2>
-    </div>
+    <section class="facts-band" aria-label="Villa facts"><div><span>3</span><small>Bedrooms</small></div><div><span>7–9</span><small>Guests</small></div><div><span>~50 m</span><small>From the beach</small></div><div><span>Private</span><small>Garden & parking</small></div></section>
 
-    <section class="space-section" id="exterior">
-      <div class="space-copy">
-        <p class="space-number">01</p>
-        <p class="eyebrow">Outside</p>
-        <h2>Exterior & private garden</h2>
-        <p>The stone exterior and large private garden form the main outdoor setting of the villa.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_4c919894f8724253b3b76cc4ae6d5e7a~mv2.jpeg" alt="Main Villa exterior and garden" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_eb733283ede6474d80ce16095456cc4a~mv2.jpeg" alt="Exterior detail of Utopia Beach Villa" loading="lazy" decoding="async">
-      </div>
+    <section class="feature-grid section-pad">
+      <a class="feature-card feature-wide" href="villa.html#outside"><img src="https://static.wixstatic.com/media/1da848_4c919894f8724253b3b76cc4ae6d5e7a~mv2.jpeg" alt="Utopia Beach Villa exterior" loading="lazy"><span class="feature-label"><small>01</small><strong>Exterior & garden</strong></span></a>
+      <a class="feature-card" href="villa.html#living"><img src="https://static.wixstatic.com/media/1da848_746f6b86492b4f548f363c005c99a67d~mv2.jpeg" alt="Living room at Utopia Beach Villa" loading="lazy"><span class="feature-label"><small>02</small><strong>Living spaces</strong></span></a>
+      <a class="feature-card" href="villa.html#bedrooms"><img src="https://static.wixstatic.com/media/1da848_7b0d7996a5c14755bd9cb03ed00c7b7d~mv2.jpg" alt="Bedroom at Utopia Beach Villa" loading="lazy"><span class="feature-label"><small>03</small><strong>Three bedrooms</strong></span></a>
     </section>
 
-    <section class="space-section reverse" id="balcony">
-      <div class="space-copy">
-        <p class="space-number">02</p>
-        <p class="eyebrow">Outdoor living</p>
-        <h2>Balcony & terrace</h2>
-        <p>An outdoor extension of the Main Villa, with open views and space to spend time outside.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_ab2f60155c744850ac7afd853cfeacc8~mv2.jpg" alt="Main Villa balcony and terrace" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_a4f09be8eb5a4d19a0c2555b3a7853dd~mv2.jpg" alt="Balcony detail at Utopia Beach Villa" loading="lazy" decoding="async">
-      </div>
+    <section class="split-feature">
+      <div class="split-image"><img src="https://static.wixstatic.com/media/1da848_ab2f60155c744850ac7afd853cfeacc8~mv2.jpg" alt="Balcony and outdoor space" loading="lazy"></div>
+      <div class="split-copy"><p class="eyebrow">Explore every space</p><h2>Room by room, not one generic gallery.</h2><p>The Villa page separates the exterior, balcony, living room, kitchen, three bedrooms and bathrooms so each part of the house is easy to understand.</p><a class="text-link" href="villa.html">Explore the villa →</a></div>
     </section>
 
-    <section class="space-section" id="living-room">
-      <div class="space-copy">
-        <p class="space-number">03</p>
-        <p class="eyebrow">Inside</p>
-        <h2>Living room</h2>
-        <p>The villa's shared indoor living space, presented here separately from the bedrooms and kitchen.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_746f6b86492b4f548f363c005c99a67d~mv2.jpeg" alt="Living room at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_62d0ede617a2456da90d432422386328~mv2.jpeg" alt="Living room detail" loading="lazy" decoding="async">
-      </div>
+    <section class="location-teaser section-pad">
+      <div><p class="eyebrow">Location</p><h2>Central Vourvourou, Halkidiki.</h2><p>See the surroundings, beach and destination imagery, then open the villa directly in Google Maps.</p><div class="actions"><a class="button button-primary" href="gallery.html#location">Location & map</a><a class="button button-outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Utopia%20Beach%20Vourvourou%20Halkidiki">Google Business Profile</a></div></div>
+      <a class="location-image" href="gallery.html"><img src="https://static.wixstatic.com/media/1da848_443a482812d646489e10ce2612d5faf4~mv2.jpg" alt="Vourvourou coastline" loading="lazy"></a>
     </section>
 
-    <section class="space-section reverse" id="kitchen">
-      <div class="space-copy">
-        <p class="space-number">04</p>
-        <p class="eyebrow">Inside</p>
-        <h2>Kitchen</h2>
-        <p>A dedicated kitchen space within the Main Villa.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_a5b5aab190ae44519c661d554bda780e~mv2.jpeg" alt="Kitchen at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_1071d966c40148058eebc0d2788e347b~mv2.jpeg" alt="Kitchen detail" loading="lazy" decoding="async">
-      </div>
-    </section>
-
-    <section class="space-section" id="sea-view-bedroom">
-      <div class="space-copy">
-        <p class="space-number">05</p>
-        <p class="eyebrow">Bedroom</p>
-        <h2>Sea-view bedroom</h2>
-        <p>One of the villa's three bedrooms, with its own separate gallery below.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_00efb915b2aa4f27b880694b4afe27cd~mv2.jpg" alt="Sea-view bedroom at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_e98e9641c7e94728b3877174a731bf63~mv2.jpg" alt="Sea-view bedroom detail" loading="lazy" decoding="async">
-      </div>
-    </section>
-
-    <section class="space-section reverse" id="master-bedroom">
-      <div class="space-copy">
-        <p class="space-number">06</p>
-        <p class="eyebrow">Bedroom</p>
-        <h2>Master bedroom</h2>
-        <p>The Main Villa's master bedroom, shown independently from the other sleeping spaces.</p>
-      </div>
-      <div class="space-media panorama-pair">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_7b0d7996a5c14755bd9cb03ed00c7b7d~mv2.jpg" alt="Master bedroom at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail panorama" src="https://static.wixstatic.com/media/1da848_7553554289de436ab238ff2aac42945f~mv2.jpg" alt="Panoramic view of the master bedroom" loading="lazy" decoding="async">
-      </div>
-    </section>
-
-    <section class="space-section" id="kids-bedroom">
-      <div class="space-copy">
-        <p class="space-number">07</p>
-        <p class="eyebrow">Bedroom</p>
-        <h2>Kids bedroom</h2>
-        <p>The third bedroom of the Main Villa, shown as its own space.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_11b042063b2f4f378e0ee29845a921d0~mv2.jpeg" alt="Kids bedroom at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_3c7bb5da951a42219d564ea96b7378f3~mv2.jpeg" alt="Kids bedroom detail" loading="lazy" decoding="async">
-      </div>
-    </section>
-
-    <section class="space-section reverse" id="bathrooms">
-      <div class="space-copy">
-        <p class="space-number">08</p>
-        <p class="eyebrow">Inside</p>
-        <h2>Bathrooms</h2>
-        <p>The villa's bathroom spaces are shown separately here rather than mixed into a general gallery.</p>
-      </div>
-      <div class="space-media">
-        <img class="space-main" src="https://static.wixstatic.com/media/1da848_13f350ac1e5c411b909d10227b0ed51f~mv2.jpeg" alt="Bathroom 1 at Utopia Beach Villa" loading="lazy" decoding="async">
-        <img class="space-detail" src="https://static.wixstatic.com/media/1da848_45a4612bfb6445f598d42205b50e685d~mv2.jpeg" alt="Bathroom 2 at Utopia Beach Villa" loading="lazy" decoding="async">
-      </div>
-    </section>
-
-    <section class="location" id="location">
-      <img src="https://static.wixstatic.com/media/1da848_463ede19499a453d820d708218b8fd80~mv2.jpeg" alt="Vourvourou scenery near Utopia Beach Villa" loading="lazy" decoding="async">
-      <div class="location-overlay"></div>
-      <div class="location-copy">
-        <p class="eyebrow">Location</p>
-        <h2>Central Vourvourou,<br>Halkidiki.</h2>
-        <p>The villa is approximately 50 metres from the beach, with private parking at the property.</p>
-      </div>
-    </section>
-
-    <section class="booking" id="book">
-      <div>
-        <p class="eyebrow">Book direct</p>
-        <h2>Contact George directly.</h2>
-        <p>For availability and booking details, contact the owner directly by WhatsApp or email. There is no booking platform or intermediary.</p>
-      </div>
-      <div class="contact-details">
-        <p><strong>Georgios Pallikaris</strong></p>
-        <p><a href="tel:+306947328699">+30 6947 328699</a></p>
-        <p><a href="mailto:gpal@utopiabeachvilla.com">gpal@utopiabeachvilla.com</a></p>
-        <div class="actions">
-          <a class="button button-primary" target="_blank" rel="noopener" href="https://wa.me/306947328699?text=Hello%20George%2C%20I%27d%20like%20to%20ask%20about%20availability%20at%20Utopia%20Beach%20Villa.">Open WhatsApp</a>
-          <a class="button button-outline" href="mailto:gpal@utopiabeachvilla.com?subject=Utopia%20Beach%20Villa%20Booking%20Inquiry">Send email</a>
-        </div>
-      </div>
+    <section class="booking-band" id="book">
+      <div><p class="eyebrow">Book direct</p><h2>Contact George directly.</h2><p>For availability and booking details, contact the owner directly by WhatsApp or email.</p></div>
+      <div class="booking-contact"><strong>Georgios Pallikaris</strong><a href="tel:+306947328699">+30 6947 328699</a><a href="mailto:gpal@utopiabeachvilla.com">gpal@utopiabeachvilla.com</a><div class="actions"><a class="button button-light" target="_blank" rel="noopener" href="https://wa.me/306947328699?text=Hello%20George%2C%20I%27d%20like%20to%20ask%20about%20availability%20at%20Utopia%20Beach%20Villa.">Open WhatsApp</a><a class="button button-ghost" href="mailto:gpal@utopiabeachvilla.com?subject=Utopia%20Beach%20Villa%20Booking%20Inquiry">Send email</a></div></div>
     </section>
   </main>
 
   <a class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact George on WhatsApp" href="https://wa.me/306947328699?text=Hello%20George%2C%20I%27d%20like%20to%20ask%20about%20availability%20at%20Utopia%20Beach%20Villa.">WhatsApp</a>
-
-  <footer>
-    <span>© Utopia Beach Villa</span>
-    <span>Vourvourou · Halkidiki · Greece</span>
-  </footer>
+  <footer><span>© Utopia Beach Villa</span><span>Vourvourou · Halkidiki · Greece</span></footer>
 </body>
 </html>
